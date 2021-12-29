@@ -1,5 +1,5 @@
 variable "owner" {
-    default = "hieu-ldt"
+  default = "hieu-ldt"
 }
 
 variable "team_membership" {
