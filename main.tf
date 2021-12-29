@@ -1,11 +1,6 @@
 provider "github" {
-  # token = var.github_token
   owner = var.owner
 }
-
-# module "github-repo" {
-#   source = "./module/github-repo/"
-# }
 
 module "github-teams" {
   for_each = var.team_membership
