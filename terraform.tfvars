@@ -47,9 +47,4 @@ repo_declaration = {
     template_name               = "",
     teams_with_admin_permission = [],
   }
-  dummy_repo = {
-    description                 = ""
-    template_name               = "",
-    teams_with_admin_permission = [],
-  }
 }
